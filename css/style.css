@@ -1,0 +1,25 @@
+/*reset*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*root-palette*/
+
+:root{
+    --text-pink: #e53170;
+    --text-light-blue: #68cbf2;
+    --icon-black: #0f0e17;
+    background-color: #fffffe;
+}
+
+/*wrapper*/
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #68cbf2;
+}
