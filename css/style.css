@@ -23,3 +23,31 @@
     padding: 10px;
     background-color: #68cbf2;
 }
+
+/*header*/
+
+header *{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: var(--text-pink);
+}
+
+/*main*/
+
+section {
+    padding: 10px;
+    width: calc(100% / 3);
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear:both;
+}
+
+.float-left {
+    float: left;
+}
