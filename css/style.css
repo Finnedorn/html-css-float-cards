@@ -39,7 +39,10 @@ h1 {
 
 section {
     padding: 10px;
-    width: calc(100% / 3);
+}
+
+.float-left {
+    float: left;
 }
 
 .clearfix:after {
@@ -48,6 +51,25 @@ section {
     clear:both;
 }
 
-.float-left {
-    float: left;
+.icon {
+    width: calc(100% / 2);
+    background-color: var(--icon-black);
+    color: white;
+}
+
+.icon-layout {
+    padding: 20px;
+}
+
+div.float-left.icon-layout>* {
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.3em;
+}
+
+.icon-text {
+    display: block;
+    color: var(--text-light-blue);
 }
