@@ -56,14 +56,19 @@ h1 {
 /*main*/
 
 section {
-    padding: 10px;
+    
     background-color: #e53170;
+}
+
+.layout {
+    padding: 10px;
+    width: calc(100% / 3);
+    
 }
 
 .icon {
     background-color: var(--icon-black);
     color: white;
-    width: calc(100% / 3);
 }
 
 img {
@@ -73,6 +78,13 @@ img {
 
 .icon-layout {
     padding: 10px;
+    width: calc(100% - 100px);
+    padding-right: 70px;
+}
+
+div .float-left .icon-layout>* {
+    display: block;
+    margin-bottom: 5px;
 }
 
 h3 {
@@ -80,6 +92,5 @@ h3 {
 }
 
 .icon-text {
-    display: block;
     color: var(--text-light-blue);
 }
